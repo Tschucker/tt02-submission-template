@@ -1,7 +1,7 @@
 --- 
 # TinyTapeout project information
 project:
-  wokwi_id:    347830495715787346        # If using wokwi, set this to your project's ID
+  wokwi_id:    347894637149553236        # If using wokwi, set this to your project's ID 
 
 # As everyone will have access to all designs, try to make it easy for someone new to your design to know what
 # it does and how to operate it.
@@ -21,6 +21,7 @@ documentation:
   clock_hz:     0       # Clock frequency in Hz (if required)
   picture:      ""      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do
+    - clock
     - data0/tap0
     - data1/tap1
     - data2/tap2
@@ -28,7 +29,6 @@ documentation:
     - select0
     - select1
     - loadpulse
-    - clock
   outputs:
     - fir1/mult0/tap10         # a description of what the outputs do
     - fir2/mult1/tap11
